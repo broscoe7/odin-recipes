@@ -1,20 +1,39 @@
 body {
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   font-family: "comic sans serif" arial;
-  width: 50vw;
+  width: 55%;
+  max-width: 600px;
 }
 
-/* .description { */
+h1 {
+  text-align: center;
+}
 
-/* } */
+img {
+  display: block;
+  height: 285px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.description {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 
 .ingredients {
   background-color: hsl(195, 100%, 75%);
-  border: solid 2px hsl(195, 100%, 75%);
+  padding: 3px 20px;
   font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .steps {
   background-color: hsl(0, 0%, 85%);
-  border: solid 2px hsl(0, 0%, 85%);
+  padding: 3px 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
