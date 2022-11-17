@@ -1,0 +1,20 @@
+body {
+  margin: 0 auto;
+  font-family: "comic sans serif" arial;
+  width: 50vw;
+}
+
+/* .description { */
+
+/* } */
+
+.ingredients {
+  background-color: hsl(195, 100%, 75%);
+  border: solid 2px hsl(195, 100%, 75%);
+  font-weight: bold;
+}
+
+.steps {
+  background-color: hsl(0, 0%, 85%);
+  border: solid 2px hsl(0, 0%, 85%);
+}
